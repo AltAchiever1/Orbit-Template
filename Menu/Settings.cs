@@ -30,16 +30,16 @@ namespace StupidTemplate
          *   Font.CreateDynamicFontFromOSFont("Comic Sans MS", 24)
          */
 
-        public static ExtGradient backgroundColor = new ExtGradient { rainbow = true};
+        public static ExtGradient backgroundColor = new ExtGradient { rainbow = false };
         public static ExtGradient[] buttonColors = new ExtGradient[]
         {
-            new ExtGradient { colors = ExtGradient.GetSolidGradient(Color.black) }, // Disabled
+            new ExtGradient { colors = ExtGradient.GetSolidGradient(new Color(0.749f, 0.749f, 1f)) }, // Disabled
             new ExtGradient { rainbow = true } // Enabled
         };
         public static Color[] textColors = new Color[]
         {
             Color.white, // Disabled
-            Color.white // Enabled
+            Color.grey // Enabled
         };
 
         public static Font currentFont = Resources.GetBuiltinResource(typeof(Font), "Arial.ttf") as Font;
@@ -52,7 +52,7 @@ namespace StupidTemplate
         public static KeyCode keyboardButton = KeyCode.Q;
 
         public static Vector3 menuSize = new Vector3(0.1f, 1f, 1f); // Depth, width, height
-        public static int buttonsPerPage = 8;
+        public static int buttonsPerPage = 5;
 
         public static float gradientSpeed = 0.5f; // Speed of colors
     }

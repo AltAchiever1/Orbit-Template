@@ -36,5 +36,6 @@ namespace StupidTemplate.Classes
 
         public Renderer targetRenderer;
         public ExtGradient colors;
+        public ExtGradient colorInfo;
     }
 }

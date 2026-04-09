@@ -1,8 +1,11 @@
-# ii's Stupid Template
-ii's Stupid Template is a mod menu template for Gorilla Tag with custom categories and the maximum amount of customization possible. This template is meant for more advanced users, so if you're a new menu creator, this could be difficult for you.
+# Orbit Menu Template
+Orbit menu template was originally made by **Zyro.yz** but he stopped updating it and someone requested it be updated so I fixed all the errors, no hate zyro your a really good coder
 
 ## Do I need permission to use this?
 No, this template is free and public for anyone to use. You are welcome to utilize it for your projects, modify it to suit your needs, and share it with others. We believe in a collaborative and open community where resources are accessible to all.
+
+## Are Credits Needed
+No, Credits are not necessary but I would really prefer credits be given 
 
 ---
 
