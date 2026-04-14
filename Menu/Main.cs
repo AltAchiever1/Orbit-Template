@@ -514,7 +514,7 @@ namespace StupidTemplate.Menu
 
         public static void Toggle(string buttonText)
         {
-            int lastPage = ((buttons[currentCategory].Length + buttonsPerPage - 1) / buttonsPerPage) - 1;
+            int lastPage = ((buttons[buttonsType].Length + buttonsPerPage - 1) / buttonsPerPage) - 1;
             if (buttonText == "PreviousPage")
             {
                 pageNumber--;
