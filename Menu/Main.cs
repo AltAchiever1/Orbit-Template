@@ -282,7 +282,7 @@ namespace StupidTemplate.Menu
             gameObject.transform.parent = menu.transform;
             gameObject.transform.rotation = Quaternion.identity;
             gameObject.transform.localScale = new Vector3(0.06f, 0.9f, 0.09f);
-            gameObject.transform.localPosition = new Vector3(0.56f, 0f, 0.28f);
+            gameObject.transform.localPosition = new Vector3(0.56f, 0f, 0.17f);
             gameObject.GetComponent<Renderer>().material.color = buttonColors[0].colors[0].color;
             gameObject.AddComponent<Classes.Button>().relatedText = "PreviousPage";
 
@@ -313,7 +313,7 @@ namespace StupidTemplate.Menu
             gameObject.transform.parent = menu.transform;
             gameObject.transform.rotation = Quaternion.identity;
             gameObject.transform.localScale = new Vector3(0.06f, 0.9f, 0.09f);
-            gameObject.transform.localPosition = new Vector3(0.56f, 0f, 0.17f);
+            gameObject.transform.localPosition = new Vector3(0.56f, 0f, 0.28f);
             gameObject.GetComponent<Renderer>().material.color = buttonColors[0].colors[0].color;
             gameObject.AddComponent<Classes.Button>().relatedText = "NextPage";
 
